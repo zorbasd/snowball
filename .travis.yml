@@ -1,0 +1,8 @@
+language: java
+sudo: false
+dist: precise
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+
+cript: mvn package
